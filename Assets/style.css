@@ -40,10 +40,16 @@
     float:left;
     width:auto;
     border:none;
-    display:block;
+    display:inline-block;
     outline:0
 }
 
+/* @media screen and (max-width: 600px){
+    .w3-bar .w3-bar-item {
+        padding: 0;
+        font-size: 15px;
+    }
+} */
 .w3-bar .w3-dropdown-hover,.w3-bar .w3-dropdown-click {
     position:static;
     float:left 
@@ -157,11 +163,19 @@ html {
 }
 
 body {
-    background-color: rgb(220, 245, 242);
     margin:0;
-    /* background-image: url("./");
-    background-size: cover;
-    background-position: center; */
+
+}
+
+#contact img{
+    display: inline-flexbox;
+    margin-left:5%;
+    width: 25%;
+    height: 25%;
+}
+
+#contact container{
+text-align: center;
 }
 
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section {
