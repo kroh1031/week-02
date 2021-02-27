@@ -1,13 +1,3 @@
-
-/* .backcover-pic {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("./assets/marble-lightblue-glitter");
-    background-size: cover;
-    background-position: center; 
-} */
-
 /* Navbar */
 .w3-top, .w3-bottom {
     position:fixed;
@@ -44,12 +34,6 @@
     outline:0
 }
 
-/* @media screen and (max-width: 600px){
-    .w3-bar .w3-bar-item {
-        padding: 0;
-        font-size: 15px;
-    }
-} */
 .w3-bar .w3-dropdown-hover,.w3-bar .w3-dropdown-click {
     position:static;
     float:left 
@@ -59,7 +43,6 @@
     white-space:normal
 }
 
- /* Not sure what this one does in the navbar */
  .w3-bar-block .w3-bar-item {
     width:100%;
     display:block;
@@ -164,9 +147,9 @@ html {
 
 body {
     margin:0;
-
 }
 
+/* Made the 3 social media icons fit on one row */
 #contact img{
     display: inline-flexbox;
     margin-left:5%;
@@ -174,6 +157,7 @@ body {
     height: 25%;
 }
 
+/* Centered the address, phone #, and email */
 #contact container{
 text-align: center;
 }
