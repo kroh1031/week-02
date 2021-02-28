@@ -33,7 +33,7 @@ Screenshot of Portfolio:
 ![Screenshot of Portfolio](./Assets/screenshot-of-portfolio.png)
 
 ## Credits
-Credits to w3schools.com for providing me with an exceptional template and freepik.com for allowing me to use their social media icons for free.  
+Credits to [w3schools.com](https://www.w3schools.com/) for providing me with an exceptional template and [freepik.com](https://www.freepik.com/) for allowing me to use their social media icons for free.  
 
 ## License
 MIT License
