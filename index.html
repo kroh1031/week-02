@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
 
 <head>
@@ -13,95 +9,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- Bootswatch -->
+    <link
+      rel="stylesheet"
+      href="https://bootswatch.com/5/vapor/bootstrap.min.css"
+    />
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+<!-- Font Awesome -->
+<link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
 <!-- Favicon -->
     <link rel="shortcut icon" type="image/jpg" href="./assets/images/blue-heart-emoji.png">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <style>
-        /* Added background-image */
-        body {
-            background-color: rgba(245, 245, 220, 0.726);
-            /* background: url("./Assets/marble-lightblue-glitter.jpg") repeat 0 0; */
-            font-family: 'Courgette', cursive;
-        }
-
-        h1,h2,h3,h4,h5,h6 {
-            font-family: "Playfair Display";
-            letter-spacing: 5px;
-            font-family: 'Courgette', cursive;
-        }
-    </style>
 </head>
 
 <body>
 
     <!-- Navbar (sit on top) -->
-    <header class="w3-top my-header">
-        <nav class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
-            <a href="#home" class="w3-bar-item w3-button">KAREN ROH</a>
-            <div class="w3-right w3-small">
-                <a href="#about" class="w3-bar-item w3-button">About Me</a>
-                <a href="#projects" class="w3-bar-item w3-button">Projects</a>
-                <a href="#contact" class="w3-bar-item w3-button">Contact Me</a>
-            </div>
-        </nav>
-    </header>
-
-    <!-- Header -->
-    <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
-        
-        <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary p-4">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#home">KAREN ROH</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#about">About Me
+                <span class="visually-hidden">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+          </ul>
+          
         </div>
-    </header>
+      </div>
+    </nav>
 
-    <!-- Page content -->
-    <div class="w3-content" style="max-width:1100px">
-
+<div class="container">
         <!-- About Me Section -->
-        <section class="w3-row w3-padding-64" id="about">
-            <div class="w3-col m6 w3-padding-large w3-small">
-                <img src="./assets/images/about-me.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting"
-                    width="600" height="750">
-            </div>
+        <section class="row mt-5" id="about">
+       
 
-            <div class="w3-col m6 w3-padding-large">
-                <h1 class="w3-center">About Me</h1><br>
-                <h5 class="w3-center">Name: Karen Roh<br> Born in: Miami, FL</h5>
-                <p class="w3-large">I'm an ordinary 18 year old high school graduate that found interest in computer
+            <div class="col-sm-6 ">
+                <h1 class="">About Me</h1><br>
+                <h4 class="text-center">Name: Karen Roh<br> Born in: Miami, FL</h4>
+                <h5 class="text-center">I'm an ordinary 18 year old high school graduate that found interest in computer
                     programming while searching for a field that I wanted to major in.<br>
 
                     I speak English and Korean.<br>
                     I coordinate very well with people and know the way to work as a team.<br>
                 
                     My goal is to become a full stack web developer.<br>
-              
-                    </p>
+                    </h5>
             </div>
+            <div class="col-sm-6">
+              <img src="./assets/images/about-me.jpg" alt="Table Setting"
+                  width="400" height="500">
+          </div>
         </section>
 
-        <hr>
 
+<hr>
         <!-- Work Section -->
-        <section class="w3-row w3-padding-64" id="projects">
+        <section class="row" id="projects">
             <div class="w3-col l6 w3-padding-large">
                 <h1 class="w3-center">Projects</h1><br>
                 
             </div>
         </section>
            <!-- Recipe Finder Card -->
-            <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="row row-cols-1 row-cols-md-3 g-4" >
                 <div class="col">
-                  <div class="card h-100 ">
+                  <div class="card h-100" >
                     <img src="./assets/images/recipe-finder.jpg" class="card-img-top" alt="..." height="350">
-                    <div class="card-body text-center">
+                    <div class="card-body text-center" >
                       <h5 class="card-title">Recipe Finder</h5>
-                      <a href="https://sranson.github.io/recipe-finder/" target=“_blank” class="card-text">Link to the deployed version
+                      <a href="https://sranson.github.io/recipe-finder/" target=“_blank” class="card-text no-underline">Link to the deployed version
                       </a><br>
-                      <a href="https://github.com/kroh1031/recipe-finder-1" target=“_blank” class="card-text">Link to the GitHub repository
+                      <a href="https://github.com/kroh1031/recipe-finder-1" target=“_blank” class="card-text no-underline">Link to the GitHub repository
                       </a><br>
-                      <a href="./assets/images/recipe-finder-screenshot.png" target=“_blank” class="card-text">Screenshot of the deployed application
+                      <a href="./assets/images/recipe-finder-screenshot.png" target=“_blank” class="card-text no-underline">Screenshot of the deployed application
                       </a>
                     </div>
                   </div>
@@ -112,11 +112,11 @@
                     <img src="./assets/images/t-shirt.jpg" class="card-img-top img-responsive" alt="..." height="350">
                     <div class="card-body text-center">
                       <h5 class="card-title">Design Collaboration</h5>
-                      <a href="https://cohoots.herokuapp.com/" target=“_blank” class="card-text">Link to the deployed version
+                      <a href="https://cohoots.herokuapp.com/" target=“_blank” class="card-text no-underline">Link to the deployed version
                       </a><br>
-                      <a href="https://github.com/kroh1031/CoHoots" target=“_blank” class="card-text">Link to the GitHub repository
+                      <a href="https://github.com/kroh1031/CoHoots" target=“_blank” class="card-text no-underline">Link to the GitHub repository
                       </a><br>
-                      <a href="./assets/images/cohoots-screenshot.png" target=“_blank” class="card-text">Screenshot of the deployed application
+                      <a href="./assets/images/cohoots-screenshot.png" target=“_blank” class="card-text no-underline">Screenshot of the deployed application
                       </a>
                     </div>
                   </div>
@@ -127,45 +127,48 @@
                     <img src="./assets/images/weather-dashboard.jpg" class="card-img-top img-responsive" alt="..." height="350">
                     <div class="card-body text-center">
                       <h5 class="card-title">Weather Dashboard</h5>
-                      <a href="https://kroh1031.github.io/week-06-weather-dashboard/" target=“_blank” class="card-text">Link to the deployed version
+                      <a href="https://kroh1031.github.io/week-06-weather-dashboard/" target=“_blank” class="card-text no-underline">Link to the deployed version
                       </a><br>
-                      <a href="https://github.com/kroh1031/week-06-weather-dashboard" target=“_blank” class="card-text">Link to the GitHub repository
+                      <a href="https://github.com/kroh1031/week-06-weather-dashboard" target=“_blank” class="card-text no-underline">Link to the GitHub repository
                       </a><br>
-                      <a href="./assets/images/weather-dashboard-screenshot2.png" target=“_blank” class="card-text">Screenshot of the deployed application
+                      <a href="./assets/images/weather-dashboard-screenshot2.png" target=“_blank” class="card-text no-underline">Screenshot of the deployed application
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
        
-
-        <hr>
+<hr>
+       
 
         <!-- Contact Me Section -->
-        <section class="w3-container w3-padding-64" id="contact">
+        <div class="row" id="contact">
             <h1>Contact Me</h1><br>
-            <p>
+            <div class="col mt-4">
                 <a href="https://www.linkedin.com/in/karen-roh-a43791205/" target=“_blank”><img
-                        src="./assets/images/linkedin.png" class="img-fluid" alt="LinkedIn" ></a>
+                        src="./assets/images/linkedin.png" class="img-fluid" width="200" height="200" alt="LinkedIn" ></a>
+            </div>
+            <div class="col">
                 <a href="https://github.com/kroh1031" target=“_blank”><img src="./assets/images/github.png"
-                    class="img-fluid" alt="GitHub" ></a>
+                    class="img-fluid" width="245" height="245" alt="GitHub" ></a>
+            </div>
+            <div class="col">
                 <a href="https://www.instagram.com/karenroh_02/" target=“_blank”><img src="./assets/images/instagram.png"
-                    class="img-fluid" alt="Instagram" ></a>
-            </p>
-     <container style="font-size: large;">
+                    class="img-fluid" width="200" height="200" alt="Instagram" ></a>
+                  </div>
+            
+     <container>
+       <div class="text-center">
             <p><b>Name: Karen Roh</b></p>
             <p><b>Phone: (404) 247-9194</b></p>
             <p><b>Email: <a href="mailto:karenroh@hotmail.com">karenroh@hotmail.com</a></b></p>
-            <p><button class="btn" style="background-color: burlywood;"><b><a href="./resume.a02ghs.pdf" target=“_blank” style="text-decoration: none;"> Download Resume</a></b></button></p>
+            <p><button class="btn btn-danger"><b><a href="./resume.a02ghs.pdf" target=“_blank” style="text-decoration: none;"> Resume</a></b></button></p>
+          </div>
      </container>
-        </section>
+        </div>
 
    
-  
-    
-    <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+
 
 </body>
 
