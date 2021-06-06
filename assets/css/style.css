@@ -16,3 +16,8 @@ body {
   text-align: center;
   padding: 0.5em
 }
+
+.my-border {
+  border: 5px outset rgb(157, 232, 255);
+  border-radius: 10px;
+}
