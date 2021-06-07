@@ -17,8 +17,12 @@ body {
   padding: 0.5em
 }
 
-.my-border {
+.my-image {
   border: 5px outset rgb(157, 232, 255);
   border-radius: 10px;
+}
+
+.project-image {
+  border-radius: 15px;
 }
 
